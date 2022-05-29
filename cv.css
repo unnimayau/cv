@@ -1,0 +1,195 @@
+body{
+    background: lightblue;
+    display: flex;
+
+}
+
+
+
+
+
+
+
+.container{
+    width: 100%;
+   height: 1000px;
+    background:aqua;
+max-width: 900px;
+max-height: 900px;
+
+    position: relative;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.container .left_side{
+    background: darkblue;
+    position: relative;
+    
+   
+   
+    
+}
+.container .right_side{
+    background:white;
+    position: relative;
+   
+  
+   
+
+}
+
+
+.profiletext{
+    position: relative;
+    display:block;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+
+}
+.profiletext h3{
+    color: white;
+    
+    text-align: center;
+
+}
+.contact .title{
+    color: white;
+    letter-spacing: 1px;
+
+}
+.education .title{
+    color: white;
+    letter-spacing:1px ;
+}
+.education li h4{
+    padding: 1px;
+    display:block;
+}
+.hr{
+    color: black;
+}
+.english{
+    width: 70%;
+    height: 5px;
+    background:black;
+}
+.english .left_side{
+    width: 80%;
+    height:5px ;
+    background:white;
+}
+.malayalam{
+    width: 70%;
+    height: 5px;
+    background:black;
+}
+.malayalam .left_side{
+    width: 100%;
+    height:5px ;
+    background:white;
+}
+.hindi{
+    width: 70%;
+    height: 5px;
+    background:black;
+}
+.hindi .left_side{
+    width: 70%;
+    height:5px ;
+    background:white;
+}
+.img1{
+    margin-left: 94px;
+    margin-top: 10px;
+}
+.profile{
+   margin-left: 30px;
+   margin-top: 20px;
+}
+.skill{
+    margin-left: 30px;
+   margin-top: 20px;
+
+}
+.html{
+    width: 70%;
+    height: 5px;
+    background:black;
+    margin-left: 20px;
+}
+.html .left_side{
+    width: 100%;
+    height:5px ;
+    background:darkblue;
+}
+.html1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.css{
+    width: 70%;
+    height: 5px;
+    background:black;
+    margin-left: 20px;
+}
+.css .left_side{
+    width: 80%;
+    height:5px ;
+    background:darkblue;
+}
+.css1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.bootstrap{
+    width: 70%;
+    height: 5px;
+    background:black;
+    margin-left: 20px;
+}
+.bootstrap .left_side{
+    width: 100%;
+    height:5px ;
+    background:darkblue;
+}
+.bootstrap1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.github{
+    width: 70%;
+    height: 5px;
+    background:black;
+    margin-left: 20px;
+}
+.github .left_side{
+    width: 100%;
+    height:5px ;
+    background:darkblue;
+}
+.github1{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.interest{
+    display: flex;
+    
+    
+    
+}
+.interest1{
+    margin-left: 30px;
+    margin-top: 20px;
+    
+
+}
+.singing{
+    margin-top:4px;
+    margin: 10px;
+}
+.reading{
+    margin-top: 4px;
+    margin: 10px;
+}
